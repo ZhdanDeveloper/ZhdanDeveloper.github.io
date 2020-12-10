@@ -1,0 +1,620 @@
+
+
+body{
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+.header{
+display: flex;
+background:linear-gradient(to right, rgba(52, 58, 64, 0.3),  rgba(52, 58, 64, 0.3)), url(head.jpg) no-repeat center center;
+background-repeat: no-repeat;
+height: 592px;
+background-size: cover;
+position: relative;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+
+.ssayingg h2{
+    font-size: 35px; color: #212529; font-weight: 600;
+}
+.container{
+    color: white;
+    font-size: 22px;
+    width: 814px;
+}
+
+.ready{
+    font-size: larger;
+}
+
+.input{
+    width: 470px; 
+    height: 45px;
+    border-radius: 5px;
+    outline: 1px;
+    border:0px;
+    padding-left : 20px;
+    padding-right: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.btn{
+    color: white;
+    background-color: #007bff;
+    height: 48px;
+    margin-left: 10px;
+    width: 150px;
+    border:0px;
+    border-radius: 5px;
+    font-size: 20px;
+    
+}
+
+.btn:hover, .btn2:hover{
+    cursor: pointer;
+    background-color: #006eff;
+    transition: 0.2s;
+}
+
+.input:focus
+{
+    border: 1px solid #1670BE;
+    box-shadow: 0 0 3px #1670BE;
+    outline-offset: 0px;
+    outline: none;
+}
+
+.navbar{
+    display: flex; 
+    font-size: 20px;
+    background-color:#f8f9fa;
+    height: 56px;
+    margin: 0;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.btn2{
+    font-weight: 100;
+    color: white;
+    border: 0px;
+    border-radius: 4px;
+    background-color: #007bff;
+    height: 38px;
+    width: 73px;
+}
+
+.three{
+    background-color:#f8f9fa;
+    display: flex;
+    height:453px ;
+    margin: 0;
+    background-size: cover;
+    flex-direction: row;
+   justify-content: center;
+    align-items: center;
+  
+    
+}
+
+.fas{
+    color:#007BFF;
+    font-size: 70px;
+}
+
+.item1{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 275px;
+    height: 150px;
+    margin: 80px;
+}
+
+.far{
+    color:#007BFF;
+    font-size: 70px;
+}
+
+
+
+.item1:hover > .far{
+
+    font-size: 75px;
+
+}
+
+.item1:hover > .fas{
+
+    font-size: 75px;
+
+}
+
+
+.describing{
+    display: flex;
+    height: 482px;
+   
+}
+.describing2{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 482px;
+   
+}
+.first{
+    display: flex;
+    height: 482px;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+justify-content: center;
+
+}
+.second{
+    background:url(bg-showcase-1.jpg) no-repeat center center;
+    display: flex;
+    width: 50%;
+    height: 482px;
+    background-size: cover;
+
+}
+.secondS{
+    background:url(bg-showcase-2.jpg) no-repeat center center;
+    display: flex;
+    width: 50%;
+    height: 482px;
+    background-size: cover;
+
+}
+
+.secondSS{
+    background:url(bg-showcase-3.jpg) no-repeat center center;
+    display: flex;
+    width: 50%;
+    height: 482px;
+    background-size: cover;
+}
+
+.desc1{
+    width: 707px;
+    height: 127px;
+    
+}
+
+.desc1 h2{
+    font-size: 35px;
+    color: #212529;
+}
+
+.desc1 p{
+    font-size: 18px;
+    color: #212529;
+}
+
+.saying{
+    display: flex;
+    height: 598px;
+    background-color:#f8f9fa;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sayingItems1{
+    width: 285px;
+}
+
+.sayingItems{
+display: flex;
+width: 60%;
+flex-direction: row;
+justify-content: space-around;
+
+}
+
+
+.overfooter{
+    display: flex;
+    height: 332px;
+    background:linear-gradient(to right, rgba(52, 58, 64, 0.3),  rgba(52, 58, 64, 0.3)), url(head.jpg) no-repeat center center;
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.footer{
+    display: flex;
+    height: 180px;
+    justify-content: space-around;
+}
+
+a{
+    font-size: 17px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.links{
+    align-items: center;
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+
+
+
+.socials{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 8%;
+    font-size: 35px;
+}
+.LinksItems{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-left: 20%; 
+}
+
+.LinksItems a{
+    font: 17px sans-serif;
+   
+}
+
+.LinksItems a:hover{
+    text-decoration: underline;
+}
+
+.socials .fab{
+    color: #007bff;
+}
+
+.socials .fab:hover, .fas:hover{
+    cursor: pointer;
+    color: #0064e7;
+    transition: 0.2s;
+}
+    .sayingItem1 img{
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+
+
+    
+
+@media (max-width: 1000px) {
+
+       .header{
+           width: 100%;
+       }
+
+    
+	.three{
+        background-color:#f8f9fa;
+        display: flex;
+        height:890px ;
+        margin: 0;
+        background-size: cover;
+        flex-direction: column;
+       justify-content: center;
+        align-items: center;
+        padding-bottom: 50px;
+      
+        
+    }
+
+
+    .container{
+        display: flex;
+        color: white;
+        font-size: 12px;
+        width: 814px;
+        justify-content: center;
+    }
+
+
+    .input{
+        width: 400px; 
+        height: 45x;
+        border-radius: 5px;
+        outline: 1px;
+        border:0px;
+        padding-left : 20px;
+        padding-right: 10px;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .btn{
+        color: white;
+        background-color: #0044ff;
+        height: 45px;
+        width: 128px;
+        border:0px;
+        border-radius: 5px;
+        font-size: 20px;
+        margin-left: 10px;
+    }
+ 
+   .describing{
+       flex-direction:  column-reverse;
+       justify-content: center;
+       align-items: center;
+       padding-bottom: 50px;
+   }
+   .describing2{
+    flex-direction: column-reverse;
+    justify-content: center;
+       align-items: center;
+       padding-bottom: 50px;
+   }
+
+    .second, .secondS, .secondSS{
+        display: flex;
+    width: 100%;
+    height: 175%;
+    background-size: cover;
+    position: relative;
+    
+    
+    }
+
+
+    .saying{
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .sayingItems{
+        flex-direction: column;
+    }
+
+    .sayingItem1{
+        padding-bottom: 50px;
+    }
+
+    .footer{
+        
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .links{
+        width: 50%;
+        align-items: center;
+    }
+    
+    .socials{
+        justify-content: center;
+        
+        justify-content: space-around;
+        width: 20%;
+    }
+
+   .copy{
+       padding-left: 70px;
+   }
+
+
+   .desc1 p{
+       width: 75%;
+   }
+   .desc1{
+       padding-top: 10px;
+       padding-bottom: 10px;
+   }
+   
+   
+}
+
+
+@media (max-width: 411px) {
+
+   .header{
+       width: 100%;
+   }
+
+     .container h1{
+         font-size: 20px;
+     }
+
+    .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .three{
+        background-color:#f8f9fa;
+        display: flex;
+        height:890px ;
+        margin: 0;
+        background-size: cover;
+        flex-direction: column;
+       justify-content: center;
+        align-items: center;
+        padding-bottom: 50px;
+      
+        
+    }
+
+     .first{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+     }
+    .container{
+        display: flex;
+        color: white;
+        font-size: 12px;
+        width: 814px;
+        justify-content: center;
+    }
+
+
+    .input{
+        width: 250px; 
+        height: 45x;
+        border-radius: 5px;
+        outline: 1px;
+        border:0px;
+        
+       
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .btn{
+        color: white;
+        background-color: #0044ff;
+        height: 45px;
+        width: 100%;
+        border:0px;
+        border-radius: 5px;
+        font-size: 20px;
+       margin-right: 8px;
+       
+    }
+ 
+   .describing{
+       width: 100%;
+       flex-direction:  column-reverse;
+       justify-content: center;
+       align-items: center;
+       padding-bottom: 50px;
+   }
+   .describing2{
+    flex-direction: column-reverse;
+    justify-content: center;
+       align-items: center;
+       padding-bottom: 50px;
+   }
+
+    .second, .secondS, .secondSS{
+        display: flex;
+    width: 100%;
+    height: 175%;
+    background-size: cover;
+    position: relative;
+    
+    
+    }
+
+
+    .saying{
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .sayingItems{
+        flex-direction: column;
+    }
+
+    .sayingItem1{
+        padding-bottom: 50px;
+    }
+
+    .footer{
+        
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .links{
+        width: 50%;
+        align-items: center;
+    }
+    
+    .socials{
+        justify-content: center;
+        
+        justify-content: space-around;
+        width: 20%;
+    }
+
+   .copy{
+       padding-left: 70px;
+   }
+
+
+   .desc1 h2{
+       width: 120%;
+    font-size: 25px;
+    color: #212529;
+}
+
+.desc1 p{
+    width: 120%;
+    font-size: 15px;
+    color: #212529;
+}
+
+   .desc1{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       width: 100%;
+       height: 200px;
+       padding-top: 10px;
+       padding-bottom: 10px;
+   }
+
+.ready{
+    font-size: 14px;
+}
+
+.socials{
+    width: 50%;
+}
+
+.copy{
+    width: 100%;
+}
+
+
+
+.links{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LinksItems{
+    width: 145%;
+    justify-content: space-around;
+}
+
+.footer{
+    width: 100%;
+}
+   .ssayingg h2{
+    font-size: 25px; color: #212529; font-weight: 600;
+}
+}
